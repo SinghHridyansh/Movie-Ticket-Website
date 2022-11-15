@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Movie Ticket Website</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="opt">
+        <h3>Pick a Movie</h3>
+        <select id="Mov">
+          <option value="450">Parasite(₹450)</option>
+          <option value="850">Joker(₹850)</option>
+          <option value="550">Jumanji: Next Level(₹550)</option>
+          <option value="750">Dolittle(₹750)</option>
+        </select>
+      </div>
+      <ul class="legend">
+        <li>
+          <div class="Vacant"></div>
+          <p>Vacant</p>
+        </li>
+        <li>
+          <div class="Selected"></div>
+          <p>Selected</p>
+        </li>
+        <li>
+          <div class="Occupied"></div>
+          <p>Occupied</p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="screen">
+      <img
+        src="https://reverent-bose-df2ec0.netlify.app/screen-thumb.png"
+        alt=""
+      />
+    </div>
+
+    <div class="seatsThing">
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat_O"></div>
+        <div class="seat"></div>
+        <div class="seat_O"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat_O"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat_O"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat_O"></div>
+        <div class="seat"></div>
+        <div class="seat_O"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat_O"></div>
+        <div class="seat_O"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="line1"></div>
+      <p style="color: #31d7a9; font-weight: 600">GOLD-₹650</p>
+      <div class="line2"></div>
+      <div class="row">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat_O"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat_O"></div>
+      </div>
+
+      <div class="row">
+        <div class="seat_O"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat_O"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat"></div>
+      </div>
+      <div class="line1"></div>
+      <p style="color: #31d7a9; font-weight: 600">DIAMOND-₹850</p>
+      <div class="line2"></div>
+    </div>
+    <div class="info">
+      <p class="text">Selected Seats :<span id="count">0</span></p>
+      <p class="text">Total Price: ₹<span id="amount">0</span></p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

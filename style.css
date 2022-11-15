@@ -1,0 +1,164 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 18, 50, 0.84), rgba(0, 0, 0, 0.95)),
+    url(https://reverent-bose-df2ec0.netlify.app/lloyd-dirks-4SLz_RCk6kQ-unsplash.jpg);
+  /* background-image: url(https://reverent-bose-df2ec0.netlify.app/lloyd-dirks-4SLz_RCk6kQ-unsplash.jpg); */
+  background-size: cover;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+ul {
+  /* background-color: greenyellow; */
+  display: flex;
+  justify-content: center;
+  gap: 4%;
+}
+ul li {
+  display: flex;
+
+  align-items: center;
+  /* background-color: red; */
+  list-style-type: none;
+  gap: 10%;
+}
+li p {
+  color: rgb(168, 168, 168);
+  font-weight: 100;
+  font-size: 0.9rem;
+}
+.screen {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  /* background-color: #31d7a9; */
+}
+.screen img {
+  width: 75%;
+}
+.seat {
+  width: 35px;
+  height: 30px;
+  margin: 5px;
+
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #01163e;
+  border: 2px solid #314c81;
+}
+.seat:nth-of-type(2) {
+  margin-right: 10%;
+}
+.seat:nth-last-of-type(2) {
+  margin-left: 10%;
+}
+
+.seatsThing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: aqua; */
+  /* padding-left: 5%;
+  padding-right: 5%; */
+}
+.V {
+  background-color: #01163e;
+}
+.seat:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: ease-in-out 0.2s;
+}
+.S {
+  border: 2px solid #26a883;
+  background-color: #31d7a9;
+}
+.seat_O {
+  width: 35px;
+  height: 30px;
+  margin: 5px;
+
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: white;
+  border: 2px solid grey;
+}
+.Vacant {
+  width: 40px;
+  height: 30px;
+  background-color: #01163e;
+  border: 2px solid #314c81;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.Selected {
+  width: 40px;
+  height: 30px;
+  border: 2px solid #26a883;
+  background-color: #31d7a9;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.Occupied {
+  width: 40px;
+  height: 30px;
+  background-color: white;
+  border: 2px solid grey;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.row {
+  width: 400px;
+  display: flex;
+  /* gap: 5px; */
+}
+.container {
+  /* background-color: #31d7a9; */
+  width: 70vh;
+}
+.opt {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  gap: 2%;
+}
+#Mov {
+  width: 250px;
+  height: 30px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: medium;
+  border: none;
+}
+.line1 {
+  height: 1px;
+  width: 60%;
+  background-color: #314c81;
+  margin-top: 6%;
+  margin-bottom: 2%;
+}
+.line2 {
+  height: 1px;
+  width: 75%;
+  background-color: #314c81;
+  margin-top: 2%;
+  margin-bottom: 6%;
+}
+.info p {
+  font-size: large;
+}
+span {
+  color: #31d7a9;
+}
